@@ -1,0 +1,23 @@
+1. The <span/> tag element is an inline container for inline elements and content, it  is used to grouping of inline-elements. It can also make styling easier with CSS or JavaScript by selecting the id or class attributes.
+2. The "placeholder" attribute specifies a short hint that describes the expected value of an input field and the "type" species the type of input element expected.
+3. CSS is the styling language that any browser understands to style webpages. SCSS is a special type of file for SASS , a program written in Ruby that assembles CSS style sheets for a browser, and for information, SASS adds lots of additional functionality to CSS like variables, nesting and more which can make writing CSS easier and faster.
+4.  Pixels (px) are considered absolute units, although they are relative to the DPI and resolution of the viewing device. But on the device itself, the PX unit is fixed and does not change based on any other element. Using PX can be problematic for responsive sites, but they are useful for maintaining consistent sizing for some elements. If you have elements that should not be resized, then using PX is a good choice. 
+Em units on the other hand are relative to the parent element, rem units relative to the root element (HTML tag) and vh units are relative to the viewport’s height, relative units scale better on different devices because they can scale up and down according to another element’s size. 
+5. Attention div:
+ Width 100% - makes the attention div fill 100% of its containing section including the horizontal margin, padding and border.
+ Margin: .5em auto 0 - the element will have a relative margin of .5em at the top and the browser will calculate and select the perfect margins for left and right and a margin of 0 at the bottom.
+ Text-align: center - the horizontal alignement of text in the element will be center, the text will be at the center on the element.
+Me div:
+Margin-top: 2em - creates a relative space at the top of 2em on the me div.
+With: 3em - makes the with of the image 3em relative to the div it is in.
+border-radius: 50% - makes the edges of the image rounded into a circle.
+Arrow div:
+Width: 15em - makes the size of the arrow image 15em relative to the the div it is contained in
+6. Width: calc(100% - 2em) - sets the width of the button to be 2 units smaller than the size of the element.
+Margin:0 - makes the space around the button 0.
+Background: #8800ff - sets the color of the text contained within the button white.
+Border: none - removes any borders around the button.
+Cursor: Pointer - changes the cursor into a pointer when on the button.
+7. Media queries are a feature of CSS that enable webpage content to adapt to different screen sizes and resolutions . They are a fundamental part of responsive web design and are used to customize the appearance of websites for multiple devices.
+8. This media enables the content in the webpage to change in the way it is displayed when the screen size reaches 768. When it reaches this set point the font-size goes to 20px nd the button and input element ovveride all  prevous styling. The button becomes 60% relative to its parent element and the input becomes 60% minus 1em relative to its parent element so a bit smaller than the button.
+9. The z-index property specifies the stack order of an element. An element with greater stack order is always in front of an element with a lower stack order, z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky).
